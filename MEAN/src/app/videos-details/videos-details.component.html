@@ -1,0 +1,16 @@
+<body>
+  <form>
+    <div>
+      <iframe width="100%" height="300" [src]="selectedValue.url | safe"></iframe>
+    </div>
+  <input type="input" [(ngModel)]="selectedValue.title" name="title"/><br>
+  <input type="input" [(ngModel)]="selectedValue.id" name="id"/><br>
+  <input type="input" [(ngModel)]="selectedValue.url" name="url"/><br>
+</form>
+  <!-- <input type="input" ><br>
+  {{selectedValue.title}}
+  {{selectedValue.id}}
+  {{selectedValue.url}} -->
+
+</body>
+

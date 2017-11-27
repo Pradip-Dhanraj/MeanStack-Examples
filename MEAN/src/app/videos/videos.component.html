@@ -1,0 +1,6 @@
+<html>
+  <body>
+    <videos-details *ngIf="selectedValue" [selectedValue]="selectedValue" ></videos-details><br>
+    <videos-list (selectedVideo)="onVideoSelected($event)" [arry]="arry"></videos-list>
+  </body>
+</html>
